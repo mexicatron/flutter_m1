@@ -53,7 +53,7 @@ class HomePage extends StatelessWidget {
                 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2105602e944f44d887ccae36012fe7dc_9366/Camiseta_de_Visitante_Real_Madrid_22-23_Purpura_HA2660_01_laydown.jpg',
             nameProduct: 'Camiseta de Futbol',
             price: '350',
-            discount: '16%',
+            discount: '17%',
           ),
           ProductItemCard(
             imageUrl:
@@ -114,7 +114,7 @@ class ProductItemCard extends StatelessWidget {
                               style: const TextStyle(
                                 color: Color.fromARGB(255, 247, 194, 23),
                                 fontWeight: FontWeight.bold,
-                                fontSize: 26,
+                                fontSize: 22,
                               ),
                               textAlign: TextAlign.left,
                             ),
